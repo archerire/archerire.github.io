@@ -1,4 +1,4 @@
-nav  a { /* tous les liens a à l'intérieur de la balise nav */
+nav  a { /* tous les liens a à l'intérieur de la balise nav  */
     float: left; /* effet flottant */
     text-decoration: none; /* pas d'héritage avec effet souligné */
     color: #ffffff; /* couleur du texte */
