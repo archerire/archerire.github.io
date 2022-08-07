@@ -44,7 +44,7 @@ body {
     font-family: "Lato", sans-serif;
     background-color: rgb(236,253,237); /* Le fond de la page sera de cette couleur */
     color: rgb(100,0,50,0.8); 
-    background: url("ressources/photo1.png") no-repeat; /* /projetarcherire/2/ */
+    background: url("ressources/photo1.png") no-repeat;
     background-size: cover;     /*Image centrale */
     margin: 0;
     padding: 0;                 /* centrage hauteur et largeur de l'image centrale en responsive */
@@ -154,7 +154,6 @@ h1 span:nth-child(3) {
     -webkit-backface-visibility: hidden;
     
 }
-
 a:hover:card-back {                   /* +++++++++++++ ESSAI +++++++++++++++ 
     position: absolute;
     height: 80%;        /* taille de la carte hauteur 
