@@ -1,4 +1,4 @@
-nav  a { /* tous les liens a à l'intérieur de la balise nav */
+nav a { /* tous les liens a à l'intérieur de la balise nav */
     float: left; /* effet flottant */
     text-decoration: none; /* pas d'héritage avec effet souligné */
     color: #ffffff; /* couleur du texte */
@@ -11,26 +11,26 @@ nav  a { /* tous les liens a à l'intérieur de la balise nav */
     transition: 0.5s; /* temps de transition lors du hover : une demi seconde */
 }
 
-nav  a:hover:first-child {  /* Cible le premier élément de navigation */
+nav a:hover:first-child {  /* Cible le premier élément de navigation */
     background: #2b1ea5;
 }
 
-nav  a:hover:nth-child(2) { /* Cible les éléments de navigation en fonction de leur
+nav a:hover:nth-child(2) { /* Cible les éléments de navigation en fonction de leur
                             position dans le document : ici le 2e */
     background: #96aa24;
 }
 
-nav  a:hover:nth-child(3) { /* Cible les éléments de navigation en fonction de leur
+nav a:hover:nth-child(3) { /* Cible les éléments de navigation en fonction de leur
                             position dans le document : ici le 3e */
     background: #4be604;
 }
 
-nav  a:hover:nth-child(4) { /* Cible les éléments de navigation en fonction de leur
+nav a:hover:nth-child(4) { /* Cible les éléments de navigation en fonction de leur
     position dans le document : ici le 4e */
     background: #03f2fae7;
 }
 
-nav  a:hover:nth-child(5) { /* Cible les éléments de navigation en fonction de leur
+nav a:hover:nth-child(5) { /* Cible les éléments de navigation en fonction de leur
     position dans le document : ici le 5e */
     background: #f43c80;
 }
@@ -44,7 +44,7 @@ body {
     font-family: "Lato", sans-serif;
     background-color: rgb(236,253,237); /* Le fond de la page sera de cette couleur */
     color: rgb(100,0,50,0.8); 
-    background: url("ressources/photo1.png") no-repeat;
+    background: url("ressources/photo1.png") no-repeat; /* /projetarcherire/2/ */
     background-size: cover;     /*Image centrale */
     margin: 0;
     padding: 0;                 /* centrage hauteur et largeur de l'image centrale en responsive */
@@ -154,6 +154,7 @@ h1 span:nth-child(3) {
     -webkit-backface-visibility: hidden;
     
 }
+
 a:hover:card-back {                   /* +++++++++++++ ESSAI +++++++++++++++ 
     position: absolute;
     height: 80%;        /* taille de la carte hauteur 
