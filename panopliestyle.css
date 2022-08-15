@@ -58,7 +58,7 @@ body {
     min-height: 500px;
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    background-image: linear-gradient(rgba(54,54,250, 0.5), rgba(255,255,0, 0.5)), url("/ARCHERIRE/ressources/un-arc.png");
+    background-image: linear-gradient(rgba(54,54,250, 0.5), rgba(255,255,0, 0.5)), url("/ressources/un-arc.png");
     background-size: cover;
 }
   
@@ -71,7 +71,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/fleches.png");
+    url("/ressources/fleches.png");
     background-size: cover;
 }
 
@@ -84,7 +84,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/lemasque.png");
+    url("/ressources/lemasque.png");
     background-size: cover;
 }
 
@@ -97,7 +97,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/bunker.png");
+    url("/ressources/bunker.png");
     background-size: cover;
 }
   
@@ -118,7 +118,7 @@ body {
     content: ' ';
     width: 100%; height: 50%;
     overflow: hidden;
-    background-image: url(/ARCHERIRE/ressources/iconelogo.png);
+    background-image: url(/ressources/iconelogo.png);
     filter: blur(5px);
     background-size: contain;       /* contain permet d'obtenir le logo à 100% */
     opacity: 0.30;
