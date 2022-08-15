@@ -1,0 +1,207 @@
+nav a { /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 10px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: 0.5s; /* temps de transition lors du hover : une demi seconde */
+}
+
+nav a:hover:first-child {  /* Cible le premier élément de navigation */
+    background: #2b1ea5;
+}
+
+nav a:hover:nth-child(2) { /* Cible les éléments de navigation en fonction de leur
+                            position dans le document : ici le 2e */
+    background: #96aa24;
+}
+
+nav a:hover:nth-child(3) { /* Cible les éléments de navigation en fonction de leur
+                            position dans le document : ici le 3e */
+    background: #4be604;
+}
+
+nav a:hover:nth-child(4) { /* Cible les éléments de navigation en fonction de leur
+    position dans le document : ici le 4e */
+    background: #03f2fae7;
+}
+
+nav a:hover:nth-child(5) { /* Cible les éléments de navigation en fonction de leur
+    position dans le document : ici le 5e */
+    background: #f43c80;
+}
+
+.logo {
+    float: right;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: "Lato", sans-serif;
+    /*background-color: rgb(236,253,237); /* Le fond de la page sera de cette couleur */
+    /*color: rgb(100,0,50,0.8); 
+    background: url("ressources/photo1.png") no-repeat; /* /projetarcherire/2/ */
+    background-color: rgb(236,253,237); /* Le fond de la page sera de cette couleur */
+    color: rgb(100,0,50,0.8); 
+    background-size: cover;     /*Image centrale */
+    margin: 0;
+    padding: 0;                 /* centrage hauteur et largeur de l'image centrale en responsive */
+}
+
+.card {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(54,54,250, 0.5), rgba(255,255,0, 0.5)), url("/ARCHERIRE/ressources/cool.png");
+    background-size: cover;
+}
+  
+.card1 {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
+    url("/ARCHERIRE/ressources/tirs-groupés.png");
+    background-size: cover;
+}
+
+.card2 {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
+    url("/ARCHERIRE/ressources/lastrategie.png");
+    background-size: cover;
+}
+
+.card3 {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
+    url("/ARCHERIRE/ressources/activite-enfant1.jpg");
+    background-size: cover;
+}
+
+.card4 {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
+    url("/ARCHERIRE/ressources/activite-enfant.png");
+    background-size: cover;
+}
+
+.card5 {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
+    url("/ARCHERIRE/ressources/supervision.png");
+    background-size: cover;
+}
+  
+.info {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+}
+  
+.info:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 50%;
+    overflow: hidden;
+    background-image: url(/ARCHERIRE/ressources/iconelogo.png);
+    filter: blur(5px);
+    background-size: contain;       /* contain permet d'obtenir le logo à 100% */
+    opacity: 0.30;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+}
+  
+.title {
+    margin: 0;
+    padding: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+}
+  
+.description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+  
+.card:hover .info,
+.card:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+  
+.card1:hover .info,
+.card1:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.card2:hover .info,
+.card2:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.card3:hover .info,
+.card3:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.card4:hover .info,
+.card4:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.card5:hover .info,
+.card5:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+  
+section {
+    display: flex;    /* mise des blocs photos en lignes par rapport à l'espace alloué */
+    flex-wrap: wrap;  /* empêche les photos de se chevaucher */
+}
