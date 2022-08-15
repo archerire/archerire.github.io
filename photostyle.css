@@ -60,7 +60,7 @@ body {
     min-height: 500px;
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    background-image: linear-gradient(rgba(54,54,250, 0.5), rgba(255,255,0, 0.5)), url("/ARCHERIRE/ressources/cool.png");
+    background-image: linear-gradient(rgba(54,54,250, 0.5), rgba(255,255,0, 0.5)), url("/ressources/cool.png");
     background-size: cover;
 }
   
@@ -73,7 +73,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/tirs-groupés.png");
+    url("/ressources/tirs-groupés.png");
     background-size: cover;
 }
 
@@ -86,7 +86,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/lastrategie.png");
+    url("/ressources/lastrategie.png");
     background-size: cover;
 }
 
@@ -99,7 +99,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/activite-enfant1.jpg");
+    url("/ressources/activite-enfant1.jpg");
     background-size: cover;
 }
 
@@ -112,7 +112,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/activite-enfant.png");
+    url("/ressources/activite-enfant.png");
     background-size: cover;
 }
 
@@ -125,7 +125,7 @@ body {
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-image: linear-gradient(rgba(54, 54, 250, 0.5), rgba(255, 255, 0, 0.5)),
-    url("/ARCHERIRE/ressources/supervision.png");
+    url("/ressources/supervision.png");
     background-size: cover;
 }
   
@@ -146,7 +146,7 @@ body {
     content: ' ';
     width: 100%; height: 50%;
     overflow: hidden;
-    background-image: url(/ARCHERIRE/ressources/iconelogo.png);
+    background-image: url(/ressources/iconelogo.png);
     filter: blur(5px);
     background-size: contain;       /* contain permet d'obtenir le logo à 100% */
     opacity: 0.30;
