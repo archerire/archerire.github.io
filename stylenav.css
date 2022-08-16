@@ -49,3 +49,6 @@ body {
     padding: 0;                 /* centrage hauteur et largeur de l'image centrale en responsive */
 }
 
+li {
+    color: red;
+}
